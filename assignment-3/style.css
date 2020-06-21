@@ -1,0 +1,236 @@
+.text_p{
+ text-align: center;
+
+}
+ 
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+}
+.left_icon ul li a{
+   
+    margin-left:  16px;
+    display: block;
+}
+.rightbtn{
+    text-decoration: none !important;
+color: #427900;
+ background-color: rgb(245, 245, 245) !important; 
+ padding-left: 7px; 
+ padding-right: 7px; 
+ padding-top: 5px; 
+ padding-bottom: 5px;
+ margin: 2px 0px 0px 5px;
+border: 1px solid #427900;
+font-size: smaller;
+display: inline;
+
+}
+.navbar ul{
+margin-left: 100px ;
+}
+.navbar ul li{
+    margin: 5px 5px 5px 0px;
+padding: 8px 12px 8px 12px;
+    text-align: center;
+    text-decoration: none;
+font-size: small;
+border-radius: 20px;
+}
+.navbar ul li:hover{
+    background-color: #316DC3;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   background-color: white;
+   text-align: left;
+   font-size: small;
+    min-width: 160px;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover { 
+    background-color: #316DC3;
+color:white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+.newsContent{
+      margin: 5px 5px 5px 5px;
+    font-size: small;
+    background-color: #316DC3;
+    color: white;
+
+}
+
+.intro {
+    width: 100%;
+}
+
+.introContent {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid; */
+}
+
+.introContent > p {
+    text-align: justify;
+    margin: 30px;
+}
+
+.info{
+    width: 100%;
+    background-color: blue;
+}
+
+.infoContent {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    
+}
+
+.infoContent > * {
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.infoContent > div > * {
+    margin-bottom: 15px;
+}
+.publicImg {
+    height: 40px;
+}
+.green{
+    color: #8dc63f;
+}
+.blue{
+    color: #0066b3;
+}
+.box{
+    margin-top: 30px ;
+    padding: 30px 40px 30px 40px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+
+
+
+.upcomingProjectDetails {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    grid-gap: 10px;
+    margin-top: 20px;
+  display: inline-block;
+}
+
+.upcomingProjectDetails > a > div {
+    /* border: 1px solid; */
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    box-shadow: 6px 8px 41px -7px rgba(0,0,0,0.75);
+    background-color: white;
+}
+
+.upcomingProjectDetails > a > div > img {
+    margin: 0 25px;
+}
+
+.upcomingEventContent {
+    /* border: 1px solid; */
+    padding: 0 20px;
+}
+
+.upcomingEventDetails {
+    /* border: 1px solid; */
+    padding: 10px;
+    padding-bottom: 0;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 8px 41px -7px rgba(0,0,0,0.75);
+}
+
+.upcomingEventDetails > p {
+    margin-bottom: 5px;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.galleryContent {
+    max-width: 1200px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.galleryImages {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(autofit, auto);
+    justify-items: center;
+}
+
+.galleryImages > img {
+    width: 250px;
+    border: 1px solid;
+}
+
+.footer {
+    width: 100%;
+    background-color: #0066b3;
+    /* margin: 0; */
+}
+
+.footerContent {
+    max-width: 800px;
+    margin: 0 auto;
+    /* border: 1px solid; */
+    text-align: left;
+    font-size: small;
+    justify-items: center;
+    color: white;
+    /* padding-top: 10px; */
+}
+
+.footerContent > p {
+    margin: 0;
+}
+.fnter
+{
+    background-color: rgb(37, 39, 46) !important;
+    color:#fff;
+    width: 100%;
+    font-size: small;
+  
+    padding: 70px 20px 60px 20px;
+}

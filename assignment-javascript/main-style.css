@@ -1,0 +1,112 @@
+@font-face {
+    font-family: gothic;
+    src: url(./fonts/gothic.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: gothic;
+    background-color: #a5e7fc8c;
+  }
+  
+  .container {
+    width: 98%;
+    margin: 0 auto;
+    padding: 1%;
+    display: grid;
+  }
+  
+  .header > .heading > h1 {
+    color: #185b74;
+    margin: 1% auto;
+    padding: 1% auto;
+    width: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-bottom: 3px solid;
+  }
+  
+  .information {
+    /* border: 2px solid; */
+    margin: 1%;
+    padding: 1%;
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .information > .info-content {
+    display: grid;
+    padding: 10px;
+    border-bottom: 2px solid #c62a2a;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: 0 auto;
+}
+  
+  .information > .info-content p {
+    color: #c62a2a;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+  
+  .content,
+  .assignment-content {
+    margin: 1%;
+    padding: 1%;
+    display: grid;
+  }
+  .assignments{
+    margin: 2%;
+    padding: 2%;
+    background-color: #6fd0e6e0;
+    border-radius: 20px;
+    box-shadow: 0px 2px 13px 3px #185b74;
+  }
+  
+  .assignments > h1 {
+    width: 60%;
+    padding: 1%;
+    margin-bottom: 1%;
+    color: #056505;
+  }
+  
+  .assignments > .assignmentList > ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    margin: 0 auto;
+    padding-left: 4%;
+    /* grid-column-gap: 2%; */
+  }
+  
+  .assignmentList > ul > li {
+    width: 80%;
+    margin: 4% 0;
+  }
+  
+  .assignmentList > ul > li > a {
+    padding: 3% 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #950d0d;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 120%;
+  }
+  
+  .assignmentList > ul > li:hover a {
+    background: rgb(102, 181, 218);
+    background: linear-gradient( 45deg, rgb(86, 218, 34) 0%, rgba(58, 225, 16, 0.75) 100% );
+    border-color: #653605;
+    color: #ffffff;
+  }
